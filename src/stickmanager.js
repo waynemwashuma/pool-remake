@@ -87,9 +87,9 @@ export class StickManager {
     this._active = true
     if(!ballIntoHole.value || scratch.value){
       playerTurn.value = !playerTurn.value
-      scratch.value = false
-      ballIntoHole.value = 0
     }
+    scratch.value = false
+    ballIntoHole.value = 0
   }
   disappear() {
     this.manager.remove(this.stick)
