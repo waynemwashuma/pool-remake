@@ -1,0 +1,30 @@
+html,
+body {
+  margin: 0px;
+  background: black;
+}
+
+canvas {
+  position: absolute;
+  margin: auto;
+  top: 50%;
+  transform: translateY(-50%)
+}
+
+#can {
+  height: 100%;
+  width: 100%;
+}
+#player-turn{
+  position: absolute;
+  top:30%;
+  width: 100%;
+  color:white;
+  text-align: center;
+  margin: auto;
+}
+#power-meter{
+  position:absolut;
+  margin: 30px 0px;
+  width:100%;
+}
