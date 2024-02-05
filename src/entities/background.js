@@ -2,7 +2,7 @@ import { Box, Sprite, StaticImageMaterial, BoxGeometry, createEntity } from "../
 
 export function createBackground(w,h) {
   const image = new Image()
-  image.src = "/assets/table.png"
+  image.src = "./assets/table.png"
   const material = new StaticImageMaterial(image,w,h)
   
   return createEntity(w/2, h/2)
